@@ -41,7 +41,7 @@ windows-64)
     CMAKE_PATH='/cygdrive/c/cmake/bin'
     #CMAKE_GENERATOR='Visual Studio 14 2015 Win64'
     #MSBUILD_PATH='/cygdrive/c/Program Files (x86)/MSBuild/14.0/Bin'
-    CMAKE_GENERATOR='Visual Studio 2019 Win64'
+    CMAKE_GENERATOR='Visual Studio 16 2019'
     MSBUILD_PATH='/cygdrive/c/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/'
     PROGRAM_FILES_FOLDER='ProgramFiles64Folder'
     PUSH_ARCH='x86_64'
