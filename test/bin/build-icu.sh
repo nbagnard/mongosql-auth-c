@@ -57,8 +57,8 @@ fail_on_error() {
         echo "Running C:\Program^ Files^ ^(x86^)\Microsoft^ Visual^ Studio\2019\Professional\VC\Auxiliary\Build\vcvarsall.bat amd64 && bash -c 'cd $ICU_BUILD_DIR ^&^& eval $CONFIGURE'"
         cmd /c "C:\Program^ Files^ ^(x86^)\Microsoft^ Visual^ Studio\2019\Professional\VC\Auxiliary\Build\vcvarsall.bat amd64 && bash -c 'cd $ICU_BUILD_DIR ^&^& eval $CONFIGURE'"
         fail_on_error $? configure
-        cmd /c "C:\Program^ Files^ ^(x86^)\Microsoft^ Visual^ Studio\2019\VC\Auxiliary\Build\vcvarsall.bat amd64 && bash -c 'cd $ICU_BUILD_DIR ^&^& make'"
-        fail_on_error $? make
+        #cmd /c "C:\Program^ Files^ ^(x86^)\Microsoft^ Visual^ Studio^ 14.0\VC\vcvarsall.bat  amd64 && bash -c 'cd $ICU_BUILD_DIR ^&^& make'"
+        cmd /c "C:\Program^ Files^ ^(x86^)\Microsoft^ Visual^ Studio\2019\Professional\VC\Auxiliary\Build\vcvarsall.bat amd64 && bash -c 'cd $ICU_BUILD_DIR ^&^& make'"        fail_on_error $? make
         ;;
     windows-32)
         # The cmd business brings all the needed compiler binaries into the shell's environment variables.
