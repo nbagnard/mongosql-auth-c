@@ -648,7 +648,7 @@ axes:
     run_on: rhel70
   - id: windows-64
     display_name: Windows 64 (VS2015)
-    run_on: windows-64-vs2015-compile
+    run_on: windows-64-vs2019-large
     variables:
       variant: windows-64
   - id: windows-32
